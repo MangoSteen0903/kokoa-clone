@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>Search- Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>15:03</span>
+      </div>
+      <div class="status-bar__column">
+        <span>80%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen_header">
+      <h1 class="screen_header__title">Search</h1>
+      <div class="screen_header__icons">
+        <span class="screen_header__icons__container">
+          <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span class="screen_header__icons__container">
+          <i class="fas fa-cog fa-lg"></i>
+          <div class="screen_header__more badge"></div>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="main-screen__icons">
+        <div class="main-screen__icons__container">
+          <i class="fas fa-qrcode fa-3x"></i>
+          <h2 class="main-screen__icons__text">QR Code</h2>
+        </div>
+        <div class="main-screen__icons__container">
+          <i class="far fa-address-book fa-3x"></i>
+          <h2 class="main-screen__icons__text">Add by Contacts</h2>
+        </div>
+        <div class="main-screen__icons__container">
+          <i class="far fa-id-card fa-3x"></i>
+          <h2 class="main-screen__icons__text">Add by ID</h2>
+        </div>
+        <div class="main-screen__icons__container">
+          <i class="far fa-envelope fa-3x"></i>
+          <h2 class="main-screen__icons__text">Invite</h2>
+        </div>
+      </div>
+
+      <div class="main-screen__recommend">
+        <div>
+          <h3 class="main-screen__recommend-title">Recommend Friends</h3>
+        </div>
+        <div>
+          <h3 class="main-screen__recommend-message">
+            You have no recommended friends
+          </h3>
+        </div>
+      </div>
+
+      <div class="main-screen__open-chat">
+          <header class="main-screen__open-chat__menu">
+              <div class="main-screen__open-chat__title">
+                <span>Open Chat</span>
+              </div>
+              <div class="main-screen__open-chat__openchat-link">
+                <span>Go to Openchat Home </span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+              </div>
+          </header>
+
+          <main class="main-screen__open-chat__contents">
+              <div class="main-screen__open-chat__contents__meta">
+                  <h3>#Nomad Coder</h3>
+                  <div class="main-screen__open-chat__contents__meta_hashtags">
+                      <span>#Nomad_coder</span>
+                      <span>#HTML</span>
+                      <span>#CSS</span>
+                  </div>
+                  <div class="main-screen__open-chat__contents__meta_info">
+                    <img
+                    class="user-component__profile user-component__profile--xs"
+                    src="https://avatars.githubusercontent.com/u/84823612?v=4"
+                  />
+                      <span>802 members</span>
+                      <span>|</span>
+                      <span>Active</span>
+                  </div>
+              </div>
+              <div class="main-screen__open-chat__contents__img">
+                  <img class="main-screen__contents-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW9st5abOLFR_ShCIhjNQ09GGYCWAZ_h6cXQ&usqp=CAU" alt="">
+              </div>
+          </main>
+          <main class="main-screen__open-chat__contents">
+            <div class="main-screen__open-chat__contents__meta">
+                <h3>#Nomad Coder</h3>
+                <div class="main-screen__open-chat__contents__meta_hashtags">
+                    <span>#Nomad_coder</span>
+                    <span>#HTML</span>
+                    <span>#CSS</span>
+                </div>
+                <div class="main-screen__open-chat__contents__meta_info">
+                  <img
+                  class="user-component__profile user-component__profile--xs"
+                  src="https://avatars.githubusercontent.com/u/84823612?v=4"
+                />
+                    <span>802 members</span>
+                    <span>|</span>
+                    <span>Active</span>
+                </div>
+            </div>
+            <div class="main-screen__open-chat__contents__img">
+                <img class="main-screen__contents-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW9st5abOLFR_ShCIhjNQ09GGYCWAZ_h6cXQ&usqp=CAU" alt="">
+            </div>
+        </main>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html">
+            <span class="nav__notify badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__more badge"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
