@@ -1,12 +1,15 @@
-.main-screen__icons {
+.icon-row__icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   box-sizing: border-box;
+  padding: 20px;
+  opacity: 0.8;
 }
 
-.main-screen__icons__container {
+.icon-row__container {
+  width: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,11 +17,7 @@
   font-weight: 600;
 }
 
-.main-screen__icons__text {
+.icon-row__text {
   margin-top: 20px;
   width: 95%;
-}
-
-.main-screen__icons__container:last-child {
-  margin-bottom: 15px;
 }

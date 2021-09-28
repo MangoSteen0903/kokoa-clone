@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <title>Chat with Nico- Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>15:03</span>
+      </div>
+      <div class="status-bar__column">
+        <span>80%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="header-nav">
+      <div class="header-nav__component">
+        <a href="chat.html"><i class="fas fa-chevron-left fa-lg"></i></a>
+      </div>
+      <div class="header-nav__component">
+        <h3>Nico</h3>
+      </div>
+      <div class="header-nav__component">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30 2021</div>
+      <div class="message-row">
+        <img src="https://avatars.githubusercontent.com/u/84823612?v=4" />
+        <div class="message-row__content">
+          <span class="message__author">Nico</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi</span>
+            <span class="message__time">21:08</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hello</span>
+            <span class="message__time">21:08</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="input">
+      <div class="input_column"><i class="far fa-plus-square fa-lg"></i></div>
+      <div class="input_column">
+        <input type="text" placeholder="Write a message" />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div class="no-mobile">
+      <span>Your Screen is too big ㅠㅠ<big></big></span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

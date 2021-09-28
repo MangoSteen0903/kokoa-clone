@@ -1,0 +1,29 @@
+.header-nav {
+  padding: var(--horizontal-space);
+  padding-top: 40px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+.header-nav__component {
+  width: 33%;
+}
+.header-nav__component h3 {
+  font-size: 20px;
+}
+
+.header-nav__component:nth-child(2) {
+  text-align: center;
+}
+
+.header-nav__component span:first-child {
+  margin-right: 30px;
+}
+
+.header-nav__component:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
